@@ -1,6 +1,7 @@
+# ShirazLugTelegramCleaner
 
 
-# Telegram Bot to Remove Users Joining After a Specified Date
+## Telegram Bot to Remove Users Joining After a Specified Date
 
 Follow the steps below to set up and execute a Rust-based Telegram bot that removes users joining after a given date.
 
