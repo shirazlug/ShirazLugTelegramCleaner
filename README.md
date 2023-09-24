@@ -7,26 +7,7 @@ Follow the steps below to set up and execute a Rust-based Telegram bot that remo
 
 ## 1. Setting Up:
 
-### a. Create a New Rust Project:
-
-```bash
-cargo new telegram_bot_remove_users
-cd telegram_bot_remove_users
-```
-
-### b. Add Dependencies:
-
-In your `Cargo.toml` file, add the following dependencies:
-
-```toml
-[dependencies]
-telegram-bot = "0.7"
-tokio = { version = "1", features = ["full"] }
-chrono = "0.4"
-clap = "2.33"
-```
-
-### c. Create a New Bot on Telegram:
+### a. Create a New Bot on Telegram:
 
 1. Open the Telegram app.
 2. Search for [BotFather](https://core.telegram.org/bots#botfather) and start a chat with it.
@@ -36,7 +17,7 @@ clap = "2.33"
 
 ## 2. Code the Bot:
 
-Replace the code in `src/main.rs` with the code provided in the previous answers. Make sure to replace `"YOUR_TELEGRAM_BOT_TOKEN"` with the token you received from the BotFather.
+Clone the project locally. 
 
 ## 3. Compile and Run:
 
@@ -49,7 +30,7 @@ cargo build --release
 ### b. Run the Bot:
 
 ```bash
-./target/release/telegram_bot_remove_users -d 2023-09-24
+./target/release/telegram_bot_remove_users -d 2023-09-24 -t BOT_TOKEN
 ```
 
 > Note: Replace `2023-09-24` with any date of your choice.
